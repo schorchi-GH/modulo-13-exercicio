@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Projeto Bootstrap</title>
+    <link rel="stylesheet" href="/lib/bootstrap.min.css">    
+</head>
+<body>
+    <div id="meuCarrossel" class="carousel slide" data-bs-ride="carousel">        <nav class="nav nav-pills carousel-indicators">
+            <button type="button" data-bs-target="#meuCarrossel" data-bs-slide-to="0" class="nav-link active"></button>
+            <button type="button" data-bs-target="#meuCarrossel" data-bs-slide-to="1" class="nav-link"></button>
+            <button type="button" data-bs-target="#meuCarrossel" data-bs-slide-to="2" class="nav-link"></button>
+        </nav>
+        <div class="carousel-inner">
+            <div class="carousel-item active" data-bs-interval="1700">
+                <img src="https://cdn.pixabay.com/photo/2023/11/30/07/11/river-8420934_1280.jpg" class="d-block w-100" alt="Ponte sobre o rio Kwait">
+            </div>
+            <div class="carousel-item" data-bs-interval="1700">
+                <img src="https://cdn.pixabay.com/photo/2023/06/07/18/36/salar-de-uyuni-8047872_1280.jpg" class="d-block w-100" alt="Estrela no Salar de Uyuni">
+            </div>
+            <div class="carousel-item" data-bs-interval="1700">
+                <img src="https://cdn.pixabay.com/photo/2023/12/04/16/12/berlin-8429780_1280.jpg" class="d-block w-100" alt="Berlin e o portão">
+            </div>
+        </div>
+        <button class="carousel-control-prev" type="button" data-bs-target="#meuCarrossel" data-bs-slide="prev">
+            <span class="carousel-control-prev-icon"></span>
+            <span class="visually-hidden">Anterior</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#meuCarrossel" data-bs-slide="next">
+            <span class="carousel-control-next-icon"></span>
+            <span class="visually-hidden">Próximo</span>
+        </button>
+    </div>
+    <div class="container mt-4">
+        <div class="row">
+            <div class="col-lg-4 col-md-6 col-sm-12 mb-4">
+                <div class="card">
+                    <img src="https://cdn.pixabay.com/photo/2023/11/11/04/03/christmas-8380345_1280.png" class="card-img-top" alt="Card Image 1">
+                    <div class="card-body">
+                        <h5 class="card-title">Quem?</h5>
+                        <p class="card-text">Rudolph é você?</p>
+                        <a href="#" class="btn btn-primary">Botão do Card 1</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-4 col-md-6 col-sm-12 mb-4">
+                <div class="card">
+                    <img src="https://cdn.pixabay.com/photo/2023/12/09/19/36/present-8440034_1280.jpg" class="card-img-top" alt="Card Image 1">
+                    <div class="card-body">
+                        <h5 class="card-title">Como?</h5>
+                        <p class="card-text">De um grego para um troiano</p>
+                        <a href="#" class="btn btn-primary">Botão do Card 2</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-4 col-md-6 col-sm-12 mb-4">
+                <div class="card">
+                    <img src="https://cdn.pixabay.com/photo/2023/12/07/02/15/christmas-tree-8434686_1280.png" class="card-img-top" alt="Card Image 1">
+                    <div class="card-body">
+                        <h5 class="card-title">Quando?</h5>
+                        <p class="card-text">Esse ano a árvore está assim, só o PNG</p>
+                        <a href="#" class="btn btn-primary">Botão do Card 3</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-4 col-md-6 col-sm-12 mb-4">
+                <div class="card">
+                    <img src="https://cdn.pixabay.com/photo/2023/11/11/04/03/christmas-8380345_1280.png" class="card-img-top" alt="Card Image 1">
+                    <div class="card-body">
+                        <h5 class="card-title">Onde?</h5>
+                        <p class="card-text">Uma linda Rena</p>
+                        <a href="#" class="btn btn-primary">Botão do Card 1</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-4 col-md-6 col-sm-12 mb-4">
+                <div class="card">
+                    <img src="https://cdn.pixabay.com/photo/2023/12/09/19/36/present-8440034_1280.jpg" class="card-img-top" alt="Card Image 1">
+                    <div class="card-body">
+                        <h5 class="card-title">Porque?</h5>
+                        <p class="card-text">Um presente para ti.</p>
+                        <a href="#" class="btn btn-primary">Botão do Card 2</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-4 col-md-6 col-sm-12 mb-4">
+                <div class="card">
+                    <img src="https://cdn.pixabay.com/photo/2023/12/07/02/15/christmas-tree-8434686_1280.png" class="card-img-top" alt="Card Image 1">
+                    <div class="card-body">
+                        <h5 class="card-title">Sem criatividade</h5>
+                        <p class="card-text">A sombra de uma árvore de natal</p>
+                        <a href="#" class="btn btn-primary">Botão do Card 3</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <script src="/lib/bootstrap.bundle.min.js"></script>
+</body>
+</html>
